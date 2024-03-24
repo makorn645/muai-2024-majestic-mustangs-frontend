@@ -88,7 +88,6 @@ const ChatBody = ({ messages, setMessages }: IProps) => {
                   sentTime: message.timestamp,
                   position: "normal",
                 }}
-                type="text"
               />
             ))}
           </MessageList>
